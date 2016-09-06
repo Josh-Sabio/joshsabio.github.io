@@ -1,0 +1,64 @@
+body {
+	background-color: green;
+}
+p {
+	font-family:'Open Sans', sans-serif;
+}
+img {
+	border: 5px solid darkgreen;
+}
+h1 {
+	color: yellow;
+	font-family: 'Alegreya Sans SC', sans-serif;
+	border-bottom: 5px solid #000;
+}
+li {
+	font-family:'Open Sans', sans-serif;
+}
+#about-me-wrap {
+    background-color: lightblue;
+    padding: 50px;
+    width: 60%;
+    margin: 100px auto;
+}
+#profile-wrap{
+	float: left;
+	width: 40%;
+	margin-right: 10%;
+}
+#bio-wrap {
+	width: 60%;
+	float: right;
+}
+.clear {
+	clear: both;
+}
+h2 {
+	color: blue;
+	font-family: 'Alegreya Sans SC', sans-serif;
+}
+ul.profile-social-links {
+	padding: 0;
+}
+ul.profile-social-links li {
+	list-style-type: none;
+	display: inline;
+	margin-right: 15px;
+}
+.Greeting {
+	font-family: 'Alegreya Sans SC', sans-serif;
+	color: blue;
+}
+@media only screen and (max-width: 767px) {
+	#profile-wrap {
+		width: 100%!important;
+		float: none!important;
+		margin-right: 0!important;
+	}
+
+	#bio-wrap {
+		width: 100%!important;
+		float: none!important;
+		margin-top: 50px!important;
+	}
+}
