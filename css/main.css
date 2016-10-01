@@ -9,6 +9,15 @@ img {
 	width:60%;
 	height:60%;
 }
+a {
+	text-decoration:none;
+}
+a:visited {
+	color:pink;
+}
+a:hover {
+	color:magenta;
+}
 h1 {
 	color: yellow;
 	font-family: 'Alegreya Sans SC', sans-serif;
